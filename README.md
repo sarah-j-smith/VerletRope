@@ -26,6 +26,13 @@ of just initializing by itself.  This is important for ropes that are lying
 slack with some sag between two points, as opposed to ropes that are already
 stretched taut at initialization.
 
+By default the `+ (VerletRope *)ropeFromSavedDataBodyA:(CCNode *)bodyA bodyB:(CCNode *)bodyB`
+method checks `rope/RopeData.plist` in the App's Bundle and then in the documents
+directory.  This allows you to ship a pre-configured rope setup with your app,
+but during development try out the config that has been saved in to the documents
+directory via the `- (void)saveRopeData` method.  When you're happy with the
+rope's setup you can add it to your Xcode project for inclusion in the bundle.
+
 
 Other Objective-C Verlet Ropes
 ==============================
