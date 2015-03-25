@@ -6,6 +6,8 @@ at http://www.yoambulante.com/en/labs/verlet.php.  This implementation is a
 clean re-boot of Objective-C from the YoAmbulante tutorial and does not use
 any code from the other previous implementations.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u-sbwSCPRQA" frameborder="0" allowfullscreen></iframe>
+
 As such it uses modern Objective-C, and the Obj-C interface to Chipmunk.
 Additionally the `VerletRope` class has a very simple interface, allowing
 a rope to be set up between two nodes.  My motivation for creating this was that
